@@ -5,5 +5,9 @@ import { defineUserConfig } from 'vuepress'
 export default defineUserConfig({
   base: '/blog/',
   bundler: viteBundler(),
-  theme: defaultTheme(),
+  theme: defaultTheme({
+    logo: 'https://vuejs.press/images/hero.png',
+
+    navbar: ['/', '/hi'],
+  }),
 })
