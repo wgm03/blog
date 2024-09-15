@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="generator" content="VuePress 2.0.0-rc.15" />
+    <style>
+      :root {
+        --vp-c-bg: #fff;
+      }
+
+      [data-theme='dark'] {
+        --vp-c-bg: #22272e;
+      }
+
+      html,
+      body {
+        background-color: var(--vp-c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem('vuepress-color-scheme')
+      const systemDarkMode =
+        'matchMedia' in window
+          ? window.matchMedia('(prefers-color-scheme: dark)').matches
+          : false
+
+      if (userMode === 'light') {
+        document.documentElement.dataset.theme = 'light'
+      } else if (userMode === 'dark' || systemDarkMode) {
+        document.documentElement.dataset.theme = 'dark'
+      }
+    </script>
+    <title>VuePress</title><meta name="description" content="My first VuePress Site">
+    <link rel="preload" href="/blog/assets/style-D5taBFHh.css" as="style"><link rel="stylesheet" href="/blog/assets/style-D5taBFHh.css">
+    <link rel="modulepreload" href="/blog/assets/app-BxeMJJMi.js"><link rel="modulepreload" href="/blog/assets/404.html-BPr0zybQ.js">
+    <link rel="prefetch" href="/blog/assets/index.html-BLNAieW8.js" as="script"><link rel="prefetch" href="/blog/assets/hi.html-DrnLWEH4.js" as="script"><link rel="prefetch" href="/blog/assets/bar.html-B5IXapl5.js" as="script"><link rel="prefetch" href="/blog/assets/01绝对定位与相对定位.html-BwPMGfNP.js" as="script"><link rel="prefetch" href="/blog/assets/index.html-DRMk_np9.js" as="script"><link rel="prefetch" href="/blog/assets/test1.html-CPMEmUAE.js" as="script"><link rel="prefetch" href="/blog/assets/test2.html-CXdqlXER.js" as="script"><link rel="prefetch" href="/blog/assets/test1.html-CbmG_osN.js" as="script"><link rel="prefetch" href="/blog/assets/test2.html-CCm_SVy9.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="vp-theme-container" vp-container data-v-34b665f7><main class="page" data-v-34b665f7><div class="theme-default-content" vp-content data-v-34b665f7><h1 data-v-34b665f7>404</h1><blockquote data-v-34b665f7>That&#39;s a Four-Oh-Four.</blockquote><a class="route-link" href="/blog/">Take me home</a></div></main></div><!--[--><!----><!--]--><!--]--></div>
+    <script type="module" src="/blog/assets/app-BxeMJJMi.js" defer></script>
+  </body>
+</html>
