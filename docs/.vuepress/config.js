@@ -45,6 +45,18 @@ export default defineUserConfig({
             link: 'test2.md',
           },
         ],
+      },
+      {
+        text: 'CSS',
+        prefix: '/guide/css/',
+        collapsible: true,
+        children: [
+          // SidebarItem
+          {
+            text: '01绝对定位与相对定位',
+            link: '01绝对定位与相对定位.md',
+          },
+        ],
       }
     ]
 
