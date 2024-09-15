@@ -13,6 +13,40 @@ export default defineUserConfig({
       { text: 'Home', link: '/' },
       { text: '打招呼', link: '/hi' },
     ],
+    sidebar:[
+      {
+        text: 'Typescript',
+        prefix: '/guide/ts/',
+        collapsible: true,
+        children: [
+          // SidebarItem
+          {
+            text: 'test1',
+            link: 'test1.md',
+          },
+          {
+            text: 'test2',
+            link: 'test2.md',
+          },
+        ],
+      },
+      {
+        text: 'Vue',
+        prefix: '/guide/vue/',
+        collapsible: true,
+        children: [
+          // SidebarItem
+          {
+            text: 'test1',
+            link: 'test1.md',
+          },
+          {
+            text: 'test2',
+            link: 'test2.md',
+          },
+        ],
+      }
+    ]
 
   }),
   bundler: viteBundler(),
