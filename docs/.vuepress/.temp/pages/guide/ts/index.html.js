@@ -1,16 +1,3 @@
 import comp from "F:/markdown/vuepress-site/docs/.vuepress/.temp/pages/guide/ts/index.html.vue"
-const data = JSON.parse("{\"path\":\"/guide/ts/\",\"title\":\"这是ts中的README文件\",\"lang\":\"en-US\",\"frontmatter\":{},\"headers\":[],\"git\":{\"updatedTime\":null,\"contributors\":[]},\"filePathRelative\":\"guide/ts/README.md\"}")
+const data = JSON.parse("{\"path\":\"/guide/ts/\",\"title\":\"这是ts中的README文件\",\"lang\":\"en-US\",\"frontmatter\":{},\"headers\":[],\"git\":{\"updatedTime\":1726368728000,\"contributors\":[{\"name\":\"attract123\",\"email\":\"2910698502@qq.com\",\"commits\":1}]},\"filePathRelative\":\"guide/ts/README.md\"}")
 export { comp, data }
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updatePageData) {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ data }) => {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  })
-}

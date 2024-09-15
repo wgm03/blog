@@ -57,7 +57,7 @@ export default defineUserConfig({
             link: '01绝对定位与相对定位.md',
           },
         ],
-      }
+      },
     ]
 
   }),
